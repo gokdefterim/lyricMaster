@@ -43,11 +43,8 @@
             vowels += 1;
         }
         else if(
-            yalnizDegilsin.charAt(x) === ' '
+            yalnizDegilsin.charAt(x) !== ' '
         ){
-            spaces += 1;
-        }
-        else{
             consonants += 1
         }
     }
