@@ -31,14 +31,14 @@
     for (x=0; x<yalnizDegilsin.length; x++){
         letters.push(yalnizDegilsin.charAt(x));
         if(
-            yalnizDegilsin.charAt(x) === 'a' ||
-            yalnizDegilsin.charAt(x) === 'e' ||
-            yalnizDegilsin.charAt(x) === 'ı' ||
-            yalnizDegilsin.charAt(x) === 'i' ||
-            yalnizDegilsin.charAt(x) === 'o' ||
-            yalnizDegilsin.charAt(x) === 'ö' ||
-            yalnizDegilsin.charAt(x) === 'u' ||
-            yalnizDegilsin.charAt(x) === 'ü'
+            yalnizDegilsin.charAt(x) === 'a' || yalnizDegilsin.charAt(x) === 'A' ||
+            yalnizDegilsin.charAt(x) === 'e' || yalnizDegilsin.charAt(x) === 'E' ||
+            yalnizDegilsin.charAt(x) === 'ı' || yalnizDegilsin.charAt(x) === 'I' ||
+            yalnizDegilsin.charAt(x) === 'i' || yalnizDegilsin.charAt(x) === 'İ' ||
+            yalnizDegilsin.charAt(x) === 'o' || yalnizDegilsin.charAt(x) === 'O' ||
+            yalnizDegilsin.charAt(x) === 'ö' || yalnizDegilsin.charAt(x) === 'Ö' ||
+            yalnizDegilsin.charAt(x) === 'u' || yalnizDegilsin.charAt(x) === 'U' ||
+            yalnizDegilsin.charAt(x) === 'ü' || yalnizDegilsin.charAt(x) === 'Ü'
         ){
             vowels += 1;
         }
